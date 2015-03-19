@@ -1,0 +1,16 @@
+
+{
+  "name": "WhatsAppMini",
+  "description": "WhatsApp para escritorio.",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": { "16": "mwd-16.png", "128": "mwd-128.png" },
+  "permissions": [
+    "webview"
+  ]
+}
